@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap'); */
+
+*{
+    font-family: 'Inter', sans-serif;    
+}
+
+#home {
+    background-image: url(../imagens/background.png);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+
+#topo{
+    position: fixed;
+    top: 0px;
+    height: 3vh;
+    width: 100%;
+    background-color: #bec8b9;
+    color: white;
+}
+
+.title{
+    color: white;
+    font-size: 15vh;
+    font-weight: 510;
+    align-items: center;
+    line-height: 13vh;
+    color: white;
+    margin-top: -4vh;
+}
+
+.text{
+    padding: 10vh;
+    color: white;
+}
+
+.rounded-circle{
+    width: auto;
+    height: 45vh;
+    margin-top: 50px;
+}
+
+#image{
+    position: relative;
+    display: flex; 
+    margin-top: 50px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.howl{
+    position: absolute;
+    display: flex; 
+    margin-top: -2vh;
+    margin-right: 2vh;
+    align-items: center; 
+    justify-content: center;
+    height: 55vh;
+}
+
+#rodape{
+    position: fixed;
+    bottom: 0px;
+    height: 3vh;
+    width: 100%;
+    background-color: #bec8b9;
+    color: white;
+}
